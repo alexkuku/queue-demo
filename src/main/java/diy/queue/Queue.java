@@ -1,3 +1,5 @@
+package diy.queue;
+
 public interface Queue<T> {
 
     boolean put(T t);

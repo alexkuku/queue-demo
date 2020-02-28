@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2419a320-db69-40ba-9bf4-1798596130c2" name="Default Changelist" comment="" />
+    <list default="true" id="2419a320-db69-40ba-9bf4-1798596130c2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/diy/lock/ShareLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/diy/lock/ShareLockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/ThreadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/YieldTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LinkedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/diy/queue/LinkedQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LinkedQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/diy/queue/LinkedQueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/diy/queue/Queue.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +26,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,6 +37,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1YCtZoYSpuRzs8HwlTrxGzQQmb3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -30,6 +47,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -37,16 +55,58 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ShareLockTest">
     <configuration name="LinkedQueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedQueueTest" />
+      <option name="MAIN_CLASS_NAME" value="diy.queue.LinkedQueueTest" />
       <module name="queue-demo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShareLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diy.lock.ShareLockTest" />
+      <module name="queue-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="diy.lock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.ThreadTest" />
+      <module name="queue-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YieldTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.YieldTest" />
+      <module name="queue-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShareLockTest" />
+        <item itemvalue="Application.YieldTest" />
+        <item itemvalue="Application.ThreadTest" />
         <item itemvalue="Application.LinkedQueueTest" />
       </list>
     </recent_temporary>
@@ -61,7 +121,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582458461675</updated>
-      <workItem from="1582458467916" duration="6596000" />
+      <workItem from="1582458467916" duration="6746000" />
+      <workItem from="1582635835307" duration="1538000" />
+      <workItem from="1582858732812" duration="870000" />
+      <workItem from="1582881174103" duration="3968000" />
     </task>
     <servers />
   </component>
@@ -69,53 +132,61 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="653" y="218" key="#com.intellij.ide.util.MemberChooser" timestamp="1582463331884">
-      <screen x="0" y="23" width="1680" height="964" />
+    <state x="653" y="217" key="#com.intellij.ide.util.MemberChooser" timestamp="1582882417517">
+      <screen x="0" y="23" width="1680" height="961" />
     </state>
+    <state x="653" y="217" key="#com.intellij.ide.util.MemberChooser/0.23.1680.961@0.23.1680.961" timestamp="1582882417517" />
     <state x="653" y="218" key="#com.intellij.ide.util.MemberChooser/0.23.1680.964@0.23.1680.964" timestamp="1582463331884" />
-    <state width="1638" height="257" key="GridCell.Tab.0.bottom" timestamp="1582464483169">
+    <state width="1638" height="409" key="GridCell.Tab.0.bottom" timestamp="1582887329528">
       <screen x="0" y="23" width="1680" height="964" />
     </state>
-    <state width="1638" height="257" key="GridCell.Tab.0.bottom/0.23.1680.964@0.23.1680.964" timestamp="1582464483169" />
-    <state width="1638" height="257" key="GridCell.Tab.0.center" timestamp="1582464483168">
+    <state width="1638" height="409" key="GridCell.Tab.0.bottom/0.23.1680.964@0.23.1680.964" timestamp="1582887329528" />
+    <state width="1638" height="259" key="GridCell.Tab.0.bottom/0.23.1680.965@0.23.1680.965" timestamp="1582683528076" />
+    <state width="1638" height="259" key="GridCell.Tab.0.bottom/0.23.1680.967@0.23.1680.967" timestamp="1582636447231" />
+    <state width="1638" height="409" key="GridCell.Tab.0.center" timestamp="1582887329527">
       <screen x="0" y="23" width="1680" height="964" />
     </state>
-    <state width="1638" height="257" key="GridCell.Tab.0.center/0.23.1680.964@0.23.1680.964" timestamp="1582464483168" />
-    <state width="1638" height="257" key="GridCell.Tab.0.left" timestamp="1582464483168">
+    <state width="1638" height="409" key="GridCell.Tab.0.center/0.23.1680.964@0.23.1680.964" timestamp="1582887329527" />
+    <state width="1638" height="259" key="GridCell.Tab.0.center/0.23.1680.965@0.23.1680.965" timestamp="1582683528076" />
+    <state width="1638" height="259" key="GridCell.Tab.0.center/0.23.1680.967@0.23.1680.967" timestamp="1582636447230" />
+    <state width="1638" height="409" key="GridCell.Tab.0.left" timestamp="1582887329527">
       <screen x="0" y="23" width="1680" height="964" />
     </state>
-    <state width="1638" height="257" key="GridCell.Tab.0.left/0.23.1680.964@0.23.1680.964" timestamp="1582464483168" />
-    <state width="1638" height="257" key="GridCell.Tab.0.right" timestamp="1582464483169">
+    <state width="1638" height="409" key="GridCell.Tab.0.left/0.23.1680.964@0.23.1680.964" timestamp="1582887329527" />
+    <state width="1638" height="259" key="GridCell.Tab.0.left/0.23.1680.965@0.23.1680.965" timestamp="1582683528076" />
+    <state width="1638" height="259" key="GridCell.Tab.0.left/0.23.1680.967@0.23.1680.967" timestamp="1582636447229" />
+    <state width="1638" height="409" key="GridCell.Tab.0.right" timestamp="1582887329528">
       <screen x="0" y="23" width="1680" height="964" />
     </state>
-    <state width="1638" height="257" key="GridCell.Tab.0.right/0.23.1680.964@0.23.1680.964" timestamp="1582464483169" />
-    <state width="1638" height="317" key="GridCell.Tab.1.bottom" timestamp="1582464349199">
+    <state width="1638" height="409" key="GridCell.Tab.0.right/0.23.1680.964@0.23.1680.964" timestamp="1582887329528" />
+    <state width="1638" height="259" key="GridCell.Tab.0.right/0.23.1680.965@0.23.1680.965" timestamp="1582683528076" />
+    <state width="1638" height="259" key="GridCell.Tab.0.right/0.23.1680.967@0.23.1680.967" timestamp="1582636447230" />
+    <state width="1638" height="317" key="GridCell.Tab.1.bottom" timestamp="1582465866753">
       <screen x="0" y="23" width="1680" height="964" />
     </state>
-    <state width="1638" height="317" key="GridCell.Tab.1.bottom/0.23.1680.964@0.23.1680.964" timestamp="1582464349199" />
-    <state width="1638" height="317" key="GridCell.Tab.1.center" timestamp="1582464349198">
+    <state width="1638" height="317" key="GridCell.Tab.1.bottom/0.23.1680.964@0.23.1680.964" timestamp="1582465866753" />
+    <state width="1638" height="317" key="GridCell.Tab.1.center" timestamp="1582465866752">
       <screen x="0" y="23" width="1680" height="964" />
     </state>
-    <state width="1638" height="317" key="GridCell.Tab.1.center/0.23.1680.964@0.23.1680.964" timestamp="1582464349198" />
-    <state width="1638" height="317" key="GridCell.Tab.1.left" timestamp="1582464349198">
+    <state width="1638" height="317" key="GridCell.Tab.1.center/0.23.1680.964@0.23.1680.964" timestamp="1582465866752" />
+    <state width="1638" height="317" key="GridCell.Tab.1.left" timestamp="1582465866751">
       <screen x="0" y="23" width="1680" height="964" />
     </state>
-    <state width="1638" height="317" key="GridCell.Tab.1.left/0.23.1680.964@0.23.1680.964" timestamp="1582464349198" />
-    <state width="1638" height="317" key="GridCell.Tab.1.right" timestamp="1582464349199">
+    <state width="1638" height="317" key="GridCell.Tab.1.left/0.23.1680.964@0.23.1680.964" timestamp="1582465866751" />
+    <state width="1638" height="317" key="GridCell.Tab.1.right" timestamp="1582465866752">
       <screen x="0" y="23" width="1680" height="964" />
     </state>
-    <state width="1638" height="317" key="GridCell.Tab.1.right/0.23.1680.964@0.23.1680.964" timestamp="1582464349199" />
+    <state width="1638" height="317" key="GridCell.Tab.1.right/0.23.1680.964@0.23.1680.964" timestamp="1582465866752" />
+    <state x="505" y="234" key="search.everywhere.popup" timestamp="1582882290701">
+      <screen x="0" y="23" width="1680" height="961" />
+    </state>
+    <state x="505" y="234" key="search.everywhere.popup/0.23.1680.961@0.23.1680.961" timestamp="1582882290701" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/LinkedQueueTest.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/LinkedQueueTest.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/diy/queue/LinkedQueueTest.java</url>
           <line>5</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>

@@ -1,3 +1,5 @@
+package diy.queue;
+
 public class LinkedQueueTest {
 
     public static void main(String[] args) {
